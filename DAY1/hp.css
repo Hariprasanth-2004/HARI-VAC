@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 7px 10px;
+    color: #fff;
+    font-size: 0.8rem;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    background: rebeccapurple;
+  }
+  .profile-img {
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-inline: auto;
+  }
+  .content {
+    text-align: justify;
+    padding: 10px 15px;
+    background: #000;
+    color: #fff;
+  }
+  body {
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+    height: 100vh;
+  }
+  .social i {
+    /* display: inline-block; */
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  .social i:hover {
+    color: rebeccapurple;
+  }
+  footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #ccc;
+    height: 60px;
+  }
+  
+  .prof-img {
+    display: grid;
+    place-items: center;
+  }
+  .table-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .table {
+    text-align: center;
+    width: 300px;
+  }
+  .table,
+  .table th,
+  .table td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+  }
+  .table th,
+  .table td {
+    padding: 5px 10px;
+  }
+  .table tr:nth-child(odd):not(thead tr) {
+    background: #ccc;
+  }
